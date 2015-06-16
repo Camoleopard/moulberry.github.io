@@ -12,13 +12,12 @@
         </script>
         <script language="javascript">
             function check(form) {
-                if(form.Username.value == "Moulberry" && form.Password.value == "Moulberry123") {
-                    window.open("admin.html")
-                }
-                else {
-                    window.location = "http://bringvictory.com";
-                }
-            }
+                switch (form.Username.value && form.Password.value) {
+    case "Moulberry":
+    case Moulberry123:
+        window.open("admin.html")
+        break;
+}
         </script>
         <p>This is my repository! <br>
         Thanks for visiting, it is hosted by github if you were wondering xD <br>
